@@ -1,6 +1,6 @@
-module Concatenator
-  def self.soccer(excitement = 50)
-    "G" + o(excitement) + "al"
+module Announcer
+  def self.goal(excitement = 50)
+    'G' + o(excitement) + 'al'
   end
 
   def self.o(excitement)
@@ -10,6 +10,6 @@ module Concatenator
   end
 
   def self.concat(memo)
-    memo += "o"
+    memo += 'o'
   end
 end
